@@ -1,0 +1,35 @@
+{
+  "F": 128,
+  "F_I": 128,
+  "NP": 100,
+  "NSplit": 30000,
+  "XD": 40,
+  "XH": 20,
+  "XW": 85,
+  "batchSize": 3,
+  "dataPath": "data/1",
+  "expPath": "exp/NeRF-RL-image-global",
+  "global": true,
+  "imageEncoderNetwork": "ResnetImageEncoder_1",
+  "k": 128,
+  "learningRate": 0.0001,
+  "lossOnSmallObjects": 1.0,
+  "nerfNetworkSettings": {
+    "k": 128,
+    "networkModule": "NeRF_k",
+    "sigmaActivation": "softplus"
+  },
+  "randomSeed": 0,
+  "xLim": [
+    -0.575,
+    0.275
+  ],
+  "yLim": [
+    -0.13,
+    0.07
+  ],
+  "zLim": [
+    0.0,
+    0.4
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "F": 128,
+  "F_I": 128,
+  "H": 150,
+  "W": 200,
+  "XD": 40,
+  "XH": 20,
+  "XW": 85,
+  "batchSize": 32,
+  "dataPath": "data/1",
+  "expPath": "exp/ConvAutoencoder-comp",
+  "global": false,
+  "k": 64,
+  "k_imageDec": 128,
+  "learningRate": 0.0001,
+  "lossOnMaskOnly": false,
+  "lossOnSmallObjects": 1.0,
+  "randomSeed": 0,
+  "trainingImgSavePath": null,
+  "xLim": [
+    -0.575,
+    0.275
+  ],
+  "yLim": [
+    -0.13,
+    0.07
+  ],
+  "zLim": [
+    0.0,
+    0.4
+  ]
+}

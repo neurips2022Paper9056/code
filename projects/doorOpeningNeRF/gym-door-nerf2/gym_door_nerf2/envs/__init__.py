@@ -1,0 +1,1 @@
+from gym_door_nerf2.envs.door_env_nerf2 import DoorEnvNerf2
