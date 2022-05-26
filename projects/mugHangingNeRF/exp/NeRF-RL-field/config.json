@@ -1,0 +1,36 @@
+{
+  "F": 64,
+  "F_I": 3,
+  "F_x_c": 32,
+  "NP": 100,
+  "NSplit": 6000,
+  "XD": 40,
+  "XH": 40,
+  "XW": 40,
+  "batchSize": 3,
+  "dataPath": "data/1",
+  "expPath": "exp/NeRF-RL-field",
+  "k": 64,
+  "learningRate": 0.0001,
+  "nerfNetworkSettings": {
+    "networkModule": "NeRF_2",
+    "sigmaActivation": "softplus"
+  },
+  "pixelSceneEncoder_finalEncoderHiddenLayers": [
+    128,
+    128
+  ],
+  "randomSeed": -1,
+  "xLim": [
+    -0.375,
+    0.125
+  ],
+  "yLim": [
+    -0.45,
+    0.04999999999999999
+  ],
+  "zLim": [
+    0.25,
+    0.75
+  ]
+}

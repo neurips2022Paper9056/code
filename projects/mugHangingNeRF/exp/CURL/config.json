@@ -1,0 +1,18 @@
+{
+  "H": 180,
+  "HC": 151,
+  "W": 180,
+  "WC": 151,
+  "batchSize": 10,
+  "dataPath": "data/1",
+  "encoderUpdateTau": 0.05,
+  "expPath": "exp/CURL",
+  "fcDim": 9248,
+  "imageCropFactor": 0.84,
+  "imageEncoderNetwork": "ConvImageEncoder_1",
+  "k": 128,
+  "learningRate": 0.0001,
+  "max_nM_duringTraining": 1,
+  "randomSeed": 0,
+  "viewIndex": 0
+}

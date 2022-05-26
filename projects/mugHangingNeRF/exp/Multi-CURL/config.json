@@ -1,0 +1,35 @@
+{
+  "XD": 40,
+  "XH": 40,
+  "XW": 40,
+  "batchSize": 10,
+  "dataPath": "data/withAlternativeViews_1",
+  "encoderNetwork": "implicitEncoder",
+  "encoderNetworkSettings": {
+    "F": 64,
+    "F_x_c": 32,
+    "pixelSceneEncoder_finalEncoderHiddenLayers": [
+      128,
+      128
+    ]
+  },
+  "encoderUpdateTau": 0.05,
+  "expPath": "exp/Multi-CURL",
+  "k": 64,
+  "learningRate": 0.0001,
+  "max_nM_duringTraining": 2,
+  "randomSeed": -1,
+  "viewIndexSplit": 4,
+  "xLim": [
+    -0.375,
+    0.125
+  ],
+  "yLim": [
+    -0.45,
+    0.04999999999999999
+  ],
+  "zLim": [
+    0.25,
+    0.75
+  ]
+}
